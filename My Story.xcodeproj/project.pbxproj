@@ -13,6 +13,9 @@
 		F0E94FD429A899E00093C874 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0E94FD229A899E00093C874 /* Main.storyboard */; };
 		F0E94FD629A899E20093C874 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0E94FD529A899E20093C874 /* Assets.xcassets */; };
 		F0E94FD929A899E20093C874 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0E94FD729A899E20093C874 /* LaunchScreen.storyboard */; };
+		F0E94FE129A89D190093C874 /* Elon-Musk-PNG-Image-Transparent-Background.png in Resources */ = {isa = PBXBuildFile; fileRef = F0E94FE029A89D190093C874 /* Elon-Musk-PNG-Image-Transparent-Background.png */; };
+		F0E94FE529A8AA610093C874 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E94FE429A8AA610093C874 /* DetailViewController.swift */; };
+		F0E94FEC29A8B3800093C874 /* Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E94FEB29A8B3800093C874 /* Story.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		F0E94FD529A899E20093C874 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F0E94FD829A899E20093C874 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F0E94FDA29A899E20093C874 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0E94FE029A89D190093C874 /* Elon-Musk-PNG-Image-Transparent-Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Elon-Musk-PNG-Image-Transparent-Background.png"; path = "../../../../Downloads/Elon-Musk-PNG-Image-Transparent-Background.png"; sourceTree = "<group>"; };
+		F0E94FE429A8AA610093C874 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		F0E94FEB29A8B3800093C874 /* Story.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Story.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,11 +62,14 @@
 		F0E94FCB29A899E00093C874 /* My Story */ = {
 			isa = PBXGroup;
 			children = (
+				F0E94FEB29A8B3800093C874 /* Story.swift */,
 				F0E94FCC29A899E00093C874 /* AppDelegate.swift */,
 				F0E94FCE29A899E00093C874 /* SceneDelegate.swift */,
 				F0E94FD029A899E00093C874 /* ViewController.swift */,
 				F0E94FD229A899E00093C874 /* Main.storyboard */,
+				F0E94FE429A8AA610093C874 /* DetailViewController.swift */,
 				F0E94FD529A899E20093C874 /* Assets.xcassets */,
+				F0E94FE029A89D190093C874 /* Elon-Musk-PNG-Image-Transparent-Background.png */,
 				F0E94FD729A899E20093C874 /* LaunchScreen.storyboard */,
 				F0E94FDA29A899E20093C874 /* Info.plist */,
 			);
@@ -127,6 +136,7 @@
 			files = (
 				F0E94FD929A899E20093C874 /* LaunchScreen.storyboard in Resources */,
 				F0E94FD629A899E20093C874 /* Assets.xcassets in Resources */,
+				F0E94FE129A89D190093C874 /* Elon-Musk-PNG-Image-Transparent-Background.png in Resources */,
 				F0E94FD429A899E00093C874 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,6 +151,8 @@
 				F0E94FD129A899E00093C874 /* ViewController.swift in Sources */,
 				F0E94FCD29A899E00093C874 /* AppDelegate.swift in Sources */,
 				F0E94FCF29A899E00093C874 /* SceneDelegate.swift in Sources */,
+				F0E94FE529A8AA610093C874 /* DetailViewController.swift in Sources */,
+				F0E94FEC29A8B3800093C874 /* Story.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
